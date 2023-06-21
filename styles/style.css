@@ -36,6 +36,9 @@
     width: 100%;
     
 }
+.slider-info{
+    padding: 0 5vw;
+}
 .slider-section-inner{
     display: flex;
     flex-direction: column; 
@@ -43,6 +46,7 @@
     justify-content: center;
     /* padding-top: 30vh; */
     padding: 30vh 2vw 0 2vw;
+    
 
 
 }
@@ -52,7 +56,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 
 }
 .corousel-inner-item-2{
@@ -61,7 +64,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .corousel-inner-item-3{
     height: 100%;
@@ -69,7 +71,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .corousel-item-overlay {
     width: 100%;
@@ -77,11 +78,38 @@
     background-color: rgba(29,29,29,.5);
 
 }
-.slider-info > h2,h3,p, .slider-info-button {
+.slider-info>h2,h3, .slider-info-button {
     text-align: center;
     padding: 1vh 3vw;
     color: white;
     font-weight: bolder;
 
    
+}
+.slider-info>p{
+    text-align: center;
+    padding: 1vh 3vw;
+    color: white;
+    font-weight: bolder;
+
+   
+}
+
+/* join section  */
+#join-section{
+    background-color: #289BDE;
+    
+}
+.join-inner{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.join-inner-button {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
 }
