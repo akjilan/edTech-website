@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+.container-fluid{
+    --bs-gutter-x: 0!important;
+}
 
 .nav-section {
     display: flex;
@@ -113,3 +116,112 @@
     align-items: center;
 
 }
+
+
+
+/* companies seciton starts here 
+ */
+
+/* footer section starts here 
+ */
+ #footer-section{
+    /* height: 40vh; */
+    width: 100%;
+    background-color: rgb(21, 21, 21);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+
+
+ }
+ 
+ .footer-section-inner> h3,p,a{
+    color: white;
+ }
+ .footer-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .footer-terms{
+    display: flex;
+ }
+ .footer-privacy{
+    border-right: 1px solid white;
+    padding-right: 2vw;
+
+ }
+ .footer-privacy::after{
+    border-right: 1px solid green;
+ }
+ .footer-terms{
+    padding-left: 2vw;
+ }
+
+
+
+ /* slider section 
+  */
+
+  /* #testimonial{
+    height: 800px;
+  } */
+  .section-space{
+    margin:3rem  0 60px 0;
+}
+  /* .carousel-inner {
+    width: 100%;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-item .card {
+    flex: 0 0 50%; 
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+
+
+  } */
+
+
+  .carousel-control-prev-1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center; 
+    z-index: 99;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    
+
+   
+  }
+  
+  .carousel-control-next-1{
+  position: absolute;
+    top:20%;
+    right: 0;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center; 
+    z-index: 99;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+
+  }
+  
